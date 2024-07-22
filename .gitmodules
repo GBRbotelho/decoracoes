@@ -1,0 +1,6 @@
+[submodule "decoracoesapi"]
+	path = decoracoesapi
+	url = https://github.com/GBRbotelho/decoracoesapi
+[submodule "deCoracoesfront"]
+	path = deCoracoesfront
+	url = https://github.com/GBRbotelho/deCoracoesfront
