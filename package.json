@@ -4,6 +4,7 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "dev": "concurrently \"npm --prefix decoracoesapi run dev\" \"npm --prefix deCoracoesfront run dev\""
+    "dev": "concurrently \"npm --prefix decoracoesapi run dev\" \"npm --prefix deCoracoesfront run dev\"",
+    "inst": "concurrently \"npm --prefix decoracoesapi i\" \"npm --prefix deCoracoesfront i\" \"npm i\""
   }
 }
