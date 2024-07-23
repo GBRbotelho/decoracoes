@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm --prefix decoracoesapi run dev\" \"npm --prefix deCoracoesfront run dev\""
+  }
+}
