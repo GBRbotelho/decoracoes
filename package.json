@@ -6,6 +6,7 @@
   "scripts": {
     "start": "concurrently \"npm --prefix decoracoesapi start\" \"npm --prefix deCoracoesfront start\"",
     "dev": "concurrently \"npm --prefix decoracoesapi run dev\" \"npm --prefix deCoracoesfront run dev\"",
+    "inst": "npm install",
     "submodule-update-api": "cd decoracoesapi && git submodule update --init --recursive",
     "submodule-update-front": "cd deCoracoesfront && git submodule update --init --recursive",
     "build-front": "cd deCoracoesfront && npm i && npm run build",
